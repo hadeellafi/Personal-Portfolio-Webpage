@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+* {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: #D14D72;
+    color: #fff;
+    font-size: larger;
+    padding: 10px;
+    width: 100%;
+    min-height: fit-content;
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 90%;
+}
+
+#navbar a {
+    color: #fff;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #FEF2F4;
+    font-size: x-large;
+}
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #D14D72, #eaa0cd);
+}
+
+#welcome-section h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #f1c0da;
+}
+
+#welcome-section #welcomeText {
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+    color: #fbdaeb;
+    width: 40%;
+}
+
+/* projects section */
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #eaa0cd, #D14D72);
+    flex-wrap: wrap;
+}
+
+#projects h2 {
+    width: 100%;
+    text-align: center;
+    color: #b40f67;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 5rem;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEF2F4;
+    justify-content: center;
+    border: #f1c0da solid 2px;
+    border-radius: 10%;
+    color: #D14D72;
+    margin-bottom: 20px;
+    width: 28%;
+    padding: 2%;
+    text-align: center;
+    height: 24rem;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .project-title {
+        width: 90%;
+        margin: 2%;
+    }
+    #contact{
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
+.project-title h2 {
+    font-size: 24px;
+    margin-top: 220px;
+
+}
+
+.project-title p {
+    margin: 0;
+    font-weight: 600;
+    color: #b01440;
+}
+
+img {
+    width: 80%;
+    border-radius: 10%;
+    margin: 10px auto 0 auto;
+
+}
+
+.project-title a {
+    color: #605c5c;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.project-title a:hover {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* contact section */
+
+#contact {
+    height: 100vh/2;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #D14D72, #e2bad2);
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: larger;
+    bottom: 0;
+}
+#contact h2{
+    font-size: xx-large;
+    color: #f1c0da;
+}
+
+#contact p{
+font-weight: 700;
+color: #3d3737;
+}
+
+#contact a{
+    text-decoration: none;
+    font-size: 25px;
+   color:#b40f67 
+}
+#contact a:hover{
+    font-weight: 900;
+    
+}
